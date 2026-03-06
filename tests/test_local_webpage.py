@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-@pytest.mark.smoke
+
 def test_local_webpage():
     # Launch browser (Chrome in this example)
     driver = webdriver.Chrome()  # or webdriver.Firefox()
