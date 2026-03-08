@@ -11,4 +11,4 @@ def test_sample_data(sample_data):
     assert "role" in sample_data
 
 def test_pass():
-    assert 0==0
+    assert 1==1
