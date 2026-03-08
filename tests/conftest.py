@@ -9,3 +9,6 @@ def sample_data():
 def test_sample_data(sample_data):
     assert sample_data["name"] == "Kuman"
     assert "role" in sample_data
+
+def test_pass():
+    pass
