@@ -1,9 +1,12 @@
 import pytest
 from pymodbus.client import ModbusTcpClient
+import logging
+
 
 
 def test_holding_reg_read():
     client = ModbusTcpClient("127.0.0.1", port=5020)
+    logging.info("Client initialized for 127.0.0.1:5020")
     client.connect()
     rr = client.read_holding_registers(0, 2)
     client.close()
