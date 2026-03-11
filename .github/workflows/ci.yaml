@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest --log-cli-level=INFO --log-file=pytest.log .\tests\
+        run: pytest --log-cli-level=INFO --log-file=pytest.log
 
       - name: Upload PyTest logs
         uses: actions/upload-artifact@v4
