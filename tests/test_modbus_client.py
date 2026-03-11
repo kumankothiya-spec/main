@@ -1,5 +1,5 @@
 import pytest
-from pymodbus.client import ModbusTcpClient
+# from pymodbus.client import ModbusTcpClient
 import logging
 
 
